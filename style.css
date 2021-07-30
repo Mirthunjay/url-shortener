@@ -75,13 +75,12 @@ input, button {
 .output-field{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 10px;
-    background-color: white;
     border-radius: 10px;
-    width:11em;
+    width:20em;
     cursor: pointer;
-    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+
 }
 
 button.Short-button {
@@ -118,5 +117,6 @@ h3 {
 input#shorten-url {
         background-color: #ffffffd6;
         width: 11em;
-        color: #000000b0;   
+        color: #000000b0;  
+        box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%); 
 }

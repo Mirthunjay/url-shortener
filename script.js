@@ -15,7 +15,7 @@ function getData(){
             const div = document.createElement('div');
             div.setAttribute('class','output-field');
             div.setAttribute('id','div')
-            div.innerHTML=`<input type="text" id="shorten-url" disabled >`;
+            div.innerHTML=`<p> Shorten URL </p> <input type="text" id="shorten-url" disabled >`;
             document.querySelector('.inner-content').append(div);
             const output = document.querySelector('#shorten-url');
             output.value = short_url[2][1];
